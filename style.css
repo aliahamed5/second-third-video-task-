@@ -77,3 +77,33 @@ width: 30%;
 .icons img:hover{
     transform: scale(1.2);
 }
+/*X O */
+.game{
+    width: 100%;
+    text-align: center;
+    font-family: system-ui;
+    color: #fff;
+    margin: auto;
+    font-weight: 500;
+}
+.title{
+    background: #f25;
+    padding: 10px 0;
+    margin: 10px 0;
+    width: 100%;
+}
+span{
+    color: #fa0;
+}
+.square{
+    width: 32%;
+    height: 150px;
+    background: #f25;
+    margin: 0.5%;
+    float:left;
+    font-size: 50px;
+}
+.square:hover{
+    background: #000;
+    cursor:pointer;
+}
